@@ -32,8 +32,8 @@
         m = n.getMonth() + 1;
         d = n.getDate();
         z = n.getDay();
-        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-        document.getElementById("date").innerHTML = m + "/" + d + "/" + y + "/" + z;
+        var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y + "/" + days[z];
       </script>  
       
       </div>                  
