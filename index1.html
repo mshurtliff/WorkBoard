@@ -31,8 +31,10 @@
         y = n.getFullYear();
         m = n.getMonth() + 1;
         d = n.getDate();
-        z = n.getDay(Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday);
-        document.getElementById("date").innerHTML = z + ", " m + "/" + d + "/" + y;
+        z = n.getDay();
+        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+        z1 = days(z);
+        document.getElementById("date").innerHTML = z1 + ", " m + "/" + d + "/" + y;
       </script>  
       
       </div>                  
